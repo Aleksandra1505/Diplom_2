@@ -1,0 +1,29 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Кеши Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи
+logs/
+*.log
+
+# IDE файлы (PyCharm, VS Code)
+.idea/
+.vscode/
+
+# Артефакты pytest и Allure
+htmlcov/
+.allure/
+allure-results/
+.coverage
+pytest_cache/
+
+# Установленные зависимости
+*.egg-info/
+dist/
+build/
